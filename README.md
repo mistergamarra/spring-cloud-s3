@@ -16,7 +16,7 @@ Prior to start, please you create an account named  **s3-account** and add this 
 
 ### 2. Delete the **spring-cloud-s3-stack ** stack if exists
 
-    aws cloudformation delete-stack  --stack-name spring-cloud-s3-stack --profile sqs-account
+    aws cloudformation delete-stack  --stack-name spring-cloud-s3-stack --profile s3-account
 
 
 ### 3. Create **spring-cloud-s3-stack ** stack into aws
